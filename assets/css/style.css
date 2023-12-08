@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Open+Sans:wght@300;400&display=swap');
+
 /* COMMON CSS AREA */
 * {
     margin: 0;
@@ -77,6 +79,7 @@ header {
     width: 100%;
     z-index: 10;
 }
+
 /*-----banner area------*/
 .banner-area {
     background: url("../img/banner.png");
@@ -95,6 +98,7 @@ header {
     text-transform: uppercase;
     color: var(--blue);
     text-align: center;
+    font-family: 'Merriweather', serif;
 }
 
 .banner-btn {
@@ -419,22 +423,26 @@ header {
 @media screen and (max-width: 768px) {
     .service-heading h2,
     .work-heading h2,
-    .blog-heading h2{
+    .blog-heading h2 {
         font-size: 30px;
     }
-    .about-area{
+
+    .about-area {
         padding: 70px 0 25px;
     }
+
     .about-heading h2,
     .about-desc p,
     .service-body,
-    .card-body{
+    .card-body {
         text-align: center;
     }
-    .about-btn{
+
+    .about-btn {
         display: flex;
         justify-content: center;
     }
+
     .about-details {
         margin-top: 0;
     }
@@ -448,16 +456,19 @@ header {
     .service-icon {
         width: 50px;
     }
-    .work-area{
+
+    .work-area {
         padding: 40px 0;
     }
-    .service-body h4{
+
+    .service-body h4 {
         font-size: 16px;
     }
-.count-details {
-    padding: 40px 0;
-}
-   
+
+    .count-details {
+        padding: 40px 0;
+    }
+
     .footer-top {
         margin-top: 60px;
     }
