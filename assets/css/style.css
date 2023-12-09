@@ -498,3 +498,19 @@ header {
         padding: 5px 10px;
     }
 }
+@media screen and (max-width: 320px) {
+    .banner-tile h1 {
+        font-size: 14px;
+        margin-top: 15px;
+        line-height: 25px;
+    }
+
+    .banner-btn {
+        margin-top: 10px;
+    }
+
+    .banner-btn button {
+        font-size: 8px;
+        padding: 3px 8px;
+    }
+}
